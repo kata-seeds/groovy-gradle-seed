@@ -12,7 +12,7 @@ class Person {
       Instantate a person with a default greeting.  Default greeting is "Hello!".
      */
     def Person() {
-        greeting = "Hello!"
+        greeting = 'Hello!'
     }
     /**
       Will output a greeting from the Person.
