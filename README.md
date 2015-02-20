@@ -19,6 +19,10 @@ Optionally generate groovydoc.  View it at `build/docs/groovydoc/index.html`.
 
     ./gradlew groovydoc
 
+Test with other versions of Groovy.
+
+    GROOVY_VERSION="2.3.9" ./gradlew check
+
 Now you can start your kata! May we suggest the [Game of Life][GoL]?
 
 [GoL]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
