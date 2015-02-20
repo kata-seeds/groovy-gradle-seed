@@ -12,6 +12,13 @@ Install dependencies and run your tests with `make`:
 
     make
 
-You should eventually see 1 test ran and 0 failures. If `make` doesn't work for you, please open an issue.
+You should eventually see 1 test ran and 0 failures. If `make` doesn't work for
+you, please open an issue.
 
-Now you can start your kata! May we suggest the [Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life)?
+Optionally generate groovydoc.  View it at `build/docs/groovydoc/index.html`.
+
+    ./gradlew groovydoc
+
+Now you can start your kata! May we suggest the [Game of Life][GoL]?
+
+[GoL]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
