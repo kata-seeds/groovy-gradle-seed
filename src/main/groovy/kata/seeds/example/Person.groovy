@@ -9,7 +9,7 @@ class Person {
      */
     String greeting
     /**
-      Instantate a person with a default greeting.  Default greeting is "Hello!".
+      Instantiate a person with a default greeting.  Default greeting is "Hello!".
      */
     def Person() {
         greeting = 'Hello!'
