@@ -16,6 +16,10 @@ class PersonTest extends GroovyTestCase {
         person = null
     }
     @Test public void test_Person_greet() {
+        assert 'Hello!' == person.greeting
         assert 'Hello!' == person.greet()
+        person.greeting = 'Hello, friend!'
+        assert 'Hello, friend!' == person.greeting
+        assert 'Hello, friend!' == person.greet()
     }
 }
