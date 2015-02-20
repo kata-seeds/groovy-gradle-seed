@@ -1,5 +1,6 @@
-# [Kata Seeds](http://kata-seeds.github.io): Language (+ optionally a test framework)
-[![Build Status](https://travis-ci.org/kata-seeds/language-seed.svg?branch=master)](https://travis-ci.org/kata-seeds/language-seed)
+# [Kata Seeds](http://kata-seeds.github.io): [Groovy][groovy]
+
+[![Build Status][travis-svg]][travis]
 
 ## Getting Started
 
@@ -26,3 +27,6 @@ Test with other versions of Groovy.
 Now you can start your kata! May we suggest the [Game of Life][GoL]?
 
 [GoL]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+[groovy]: http://groovy.codehaus.org/
+[travis]: https://travis-ci.org/kata-seeds/groovy-gradle-seed
+[travis-svg]: https://travis-ci.org/kata-seeds/groovy-gradle-seed.svg?branch=master
