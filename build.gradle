@@ -1,6 +1,6 @@
 apply plugin: 'groovy'
 
-group = 'kata-seeds'
+group = 'kata.seeds'
 jar.baseName = 'groovy-gradle-seed'
 archivesBaseName = 'groovy-gradle-seed'
 version = '0.1.0-SNAPSHOT'
