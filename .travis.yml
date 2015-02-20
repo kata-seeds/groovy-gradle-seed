@@ -1,2 +1,5 @@
-language: # TODO: see http://docs.travis-ci.com for more information
+language: groovy
+#required to skip the travis 'install' step because we're using make.
+#http://docs.travis-ci.com/user/build-configuration/#install
+install: true
 script: make

@@ -1,0 +1,8 @@
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+#ignore groovyConsole logs when testing functions
+/src/main/*.log
