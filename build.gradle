@@ -12,7 +12,9 @@ ext.groovyVersion = System.getenv('GROOVY_VERSION')?: '2.4.0'
 println "Using Groovy ${groovyVersion}"
 println "Using Gradle ${GradleVersion.current().getVersion()}"
 
-repositories { mavenCentral() }
+repositories {
+    mavenCentral()
+}
 dependencies {
     compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
     testCompile 'junit:junit:4.11'
