@@ -27,6 +27,6 @@ Test with other versions of Groovy.
 Now you can start your kata! May we suggest the [Game of Life][GoL]?
 
 [GoL]: http://en.wikipedia.org/wiki/Conway's_Game_of_Life
-[groovy]: http://groovy.codehaus.org/
+[groovy]: http://groovy-lang.org/
 [travis]: https://travis-ci.org/kata-seeds/groovy-gradle-seed
 [travis-svg]: https://travis-ci.org/kata-seeds/groovy-gradle-seed.svg?branch=master
